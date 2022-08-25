@@ -1,0 +1,205 @@
+local Gui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Creator = Instance.new("TextLabel")
+local Title2 = Instance.new("TextLabel")
+local Synolope = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local IY = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Danses = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local FM = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ID = Instance.new("TextLabel")
+local music1 = Instance.new("TextLabel")
+local music2 = Instance.new("TextLabel")
+local music3 = Instance.new("TextLabel")
+
+Gui.Name = "Gui"
+Gui.Parent = game.CoreGui
+Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Gui
+MainFrame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.365526497, 0, 0.345679015, 0)
+MainFrame.Size = UDim2.new(0, 400, 0, 250)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 400, 0, 25)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "MEEPCITY HACK"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 20.000
+Title.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Title
+Close.BackgroundColor3 = Color3.fromRGB(255, 60, 60)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.912500024, 0, -0.0119995121, 0)
+Close.Size = UDim2.new(0, 35, 0, 24)
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 15.000
+Close.TextWrapped = true
+
+Creator.Name = "Creator"
+Creator.Parent = MainFrame
+Creator.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Creator.BorderSizePixel = 0
+Creator.Position = UDim2.new(0.25, 0, 0.140000001, 0)
+Creator.Size = UDim2.new(0, 200, 0, 25)
+Creator.Font = Enum.Font.FredokaOne
+Creator.Text = "👑 CREATEUR : DEVETS (ENZO)"
+Creator.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creator.TextSize = 15.000
+Creator.TextWrapped = true
+
+Title2.Name = "Title2"
+Title2.Parent = MainFrame
+Title2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title2.BorderSizePixel = 0
+Title2.Position = UDim2.new(0, 0, 0.867999971, 0)
+Title2.Size = UDim2.new(0, 400, 0, 33)
+Title2.Font = Enum.Font.FredokaOne
+Title2.Text = "AMUSEZ-VOUS BIEN !"
+Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title2.TextSize = 15.000
+Title2.TextWrapped = true
+
+Synolope.Name = "Synolope"
+Synolope.Parent = MainFrame
+Synolope.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Synolope.BorderSizePixel = 0
+Synolope.Position = UDim2.new(0.0500000007, 0, 0.300000012, 0)
+Synolope.Size = UDim2.new(0, 120, 0, 25)
+Synolope.Font = Enum.Font.FredokaOne
+Synolope.Text = "SPAM/SPAWN OBJECTS/TOUPIE..."
+Synolope.TextColor3 = Color3.fromRGB(255, 255, 255)
+Synolope.TextScaled = true
+Synolope.TextSize = 14.000
+Synolope.TextWrapped = true
+Synolope.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
+end)
+
+UICorner.Parent = Synolope
+
+IY.Name = "IY"
+IY.Parent = MainFrame
+IY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+IY.BorderSizePixel = 0
+IY.Position = UDim2.new(0.0500000007, 0, 0.43599999, 0)
+IY.Size = UDim2.new(0, 120, 0, 25)
+IY.Font = Enum.Font.FredokaOne
+IY.Text = "INFINITE YIELD"
+IY.TextColor3 = Color3.fromRGB(255, 255, 255)
+IY.TextSize = 14.000
+IY.TextWrapped = true
+IY.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+UICorner_2.Parent = IY
+
+Danses.Name = "Danses"
+Danses.Parent = MainFrame
+Danses.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Danses.BorderSizePixel = 0
+Danses.Position = UDim2.new(0.0500000007, 0, 0.572000027, 0)
+Danses.Size = UDim2.new(0, 120, 0, 25)
+Danses.Font = Enum.Font.FredokaOne
+Danses.Text = "DANSES"
+Danses.TextColor3 = Color3.fromRGB(255, 255, 255)
+Danses.TextSize = 14.000
+Danses.TextWrapped = true
+Danses.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DinosaurXxX/dinohub/main/DinoHub"))()
+end)
+
+UICorner_3.Parent = Danses
+
+FM.Name = "FM"
+FM.Parent = MainFrame
+FM.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FM.BorderSizePixel = 0
+FM.Position = UDim2.new(0.0500000007, 0, 0.708000004, 0)
+FM.Size = UDim2.new(0, 120, 0, 25)
+FM.Font = Enum.Font.FredokaOne
+FM.Text = "FAUX MESSAGES"
+FM.TextColor3 = Color3.fromRGB(255, 255, 255)
+FM.TextSize = 14.000
+FM.TextWrapped = true
+FM.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+
+UICorner_4.Parent = FM
+
+ID.Name = "ID"
+ID.Parent = MainFrame
+ID.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ID.BorderSizePixel = 0
+ID.Position = UDim2.new(0.400000006, 0, 0.300000012, 0)
+ID.Size = UDim2.new(0, 220, 0, 25)
+ID.Font = Enum.Font.FredokaOne
+ID.Text = "TITRES DE MUSIQUES COOL DISPONIBLES SUR MEEPCITY :"
+ID.TextColor3 = Color3.fromRGB(255, 255, 255)
+ID.TextScaled = true
+ID.TextSize = 15.000
+ID.TextWrapped = true
+
+music1.Name = "music1"
+music1.Parent = MainFrame
+music1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+music1.BorderSizePixel = 0
+music1.Position = UDim2.new(0.400000006, 0, 0.43599999, 0)
+music1.Size = UDim2.new(0, 220, 0, 25)
+music1.Font = Enum.Font.FredokaOne
+music1.Text = "🎶 \"MY BOY IS CHILLING\" 🎶"
+music1.TextColor3 = Color3.fromRGB(255, 255, 255)
+music1.TextSize = 15.000
+music1.TextWrapped = true
+
+music2.Name = "music2"
+music2.Parent = MainFrame
+music2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+music2.BorderSizePixel = 0
+music2.Position = UDim2.new(0.400000006, 0, 0.572000027, 0)
+music2.Size = UDim2.new(0, 220, 0, 25)
+music2.Font = Enum.Font.FredokaOne
+music2.Text = "🎶 \"CHILLED 60\" 🎶"
+music2.TextColor3 = Color3.fromRGB(255, 255, 255)
+music2.TextSize = 15.000
+music2.TextWrapped = true
+
+music3.Name = "music3"
+music3.Parent = MainFrame
+music3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+music3.BorderSizePixel = 0
+music3.Position = UDim2.new(0.400000006, 0, 0.708000004, 0)
+music3.Size = UDim2.new(0, 220, 0, 25)
+music3.Font = Enum.Font.FredokaOne
+music3.Text = "🎶 \"MARCH OF THE TROLLS\" 🎶"
+music3.TextColor3 = Color3.fromRGB(255, 255, 255)
+music3.TextSize = 15.000
+music3.TextWrapped = true
+
+local function GZJP_fake_script()
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(GZJP_fake_script)()
